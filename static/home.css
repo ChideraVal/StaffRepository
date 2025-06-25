@@ -309,3 +309,19 @@ li, p.error {
     font-size: 1em;
     display: inline-block;
 }
+
+@media (max-width: 1000px) {
+    form {
+        width: 100%;
+        /* padding: 0 1em; */
+        box-sizing: border-box;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .details img {
+        width: 100%;
+    }
+}
